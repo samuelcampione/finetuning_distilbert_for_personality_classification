@@ -1,0 +1,9 @@
+nltk
+torch
+numpy
+pandas
+langdetect
+sklearn
+matplotlib
+tqdm
+
