@@ -21,7 +21,7 @@ The model uses Facebook Status Updates to predict Openness by using DistilBERT w
 - [requirements.txt](https://github.com/samuelcampione/finetuning_distilbert_for_personality_classification/blob/main/requirements.txt)
 
 ### **Data**: 
-The myPersonality datast contains Facebook Status Updates texts with binary categories (y/n) for the Big Five personality traits. The data has been anonymized but is not open for sharing. 
+The myPersonality datast contains Facebook Status Updates texts with binary categories (y/n) for the Big Five personality traits. The data containes 9917 status updates for over 200 users and has been anonymized but is not open for sharing. 
 
 
 ### **Personality**: 
