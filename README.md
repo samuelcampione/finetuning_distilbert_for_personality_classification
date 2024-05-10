@@ -13,7 +13,7 @@ The model uses Facebook Status Updates to predict Openness by using DistilBERT w
 | `BERTClassifier` | 74.54% | Static DistilBERT Classifier |
 
 ### **Usage**
-- [data.py](https://github.com/samuelcampione/finetuning_distilbert_for_personality_classification/blob/main/predicting_personality.ipynb):  text preprocessing functions and custom PyTorch Dataset class
+- [data.py](https://github.com/samuelcampione/finetuning_distilbert_for_personality_classification/blob/main/data.py):  text preprocessing functions and custom PyTorch Dataset class
 - [models.py](https://github.com/samuelcampione/finetuning_distilbert_for_personality_classification/blob/main/models.py): PyTorch models trained,  `BERTClassifier` and `BERTClassifierUnfrozen`
 - [train_eval.py](https://github.com/samuelcampione/finetuning_distilbert_for_personality_classification/blob/main/train_eval.py): training and evalution functions
 - [predicting_personality.ipynb](https://github.com/samuelcampione/finetuning_distilbert_for_personality_classification/blob/main/predicting_personality.ipynb): final notebook that explores data and trains and evaluates both models
