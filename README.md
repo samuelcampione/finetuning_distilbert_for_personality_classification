@@ -1,4 +1,4 @@
-# Finetuning DistilBERT for Personality Classification of Social Media Text
+# Fine-Tuning DistilBERT for Personality Classification of Social Media Text
 My goal was to expand the prediction of personality traits like Openness by applying natural language processing to real-world text data, moving beyond traditional survey methods. 
 
 ### **Model**: 
