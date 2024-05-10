@@ -9,8 +9,8 @@ The model uses Facebook Status Updates to predict Openness by using DistilBERT w
 
 | Model   | Accuracy | Description |
 |---------|----------|----------|
-| `BERTClassifierUnfrozen` |74.64%| Fine-Tuned DistilBERT Classifier |
-| `BERTClassifier` | 74.54% | Static DistilBERT Classifier |
+| `BERTClassifierUnfrozen` |74.64%| Fine-Tuned DistilBERT with classifier final layer |
+| `BERTClassifier` | 74.54% | Static DistilBERT with classifier final layer |
 
 ### **Usage**
 - [data.py](https://github.com/samuelcampione/finetuning_distilbert_for_personality_classification/blob/main/data.py):  text preprocessing functions and custom PyTorch Dataset class
