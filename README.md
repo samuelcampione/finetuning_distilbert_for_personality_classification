@@ -17,7 +17,7 @@ The model uses Facebook Status Updates to predict Openness by using DistilBERT w
 - [models.py](https://github.com/samuelcampione/finetuning_distilbert_for_personality_classification/blob/main/models.py): PyTorch models trained,  `BERTClassifier` and `BERTClassifierUnfrozen`
 - [train_eval.py](https://github.com/samuelcampione/finetuning_distilbert_for_personality_classification/blob/main/train_eval.py): training and evalution functions
 - [predicting_personality.ipynb](https://github.com/samuelcampione/finetuning_distilbert_for_personality_classification/blob/main/predicting_personality.ipynb): final notebook that explores data and trains and evaluates both models
-- [requirements.txt](https://github.com/samuelcampione/finetuning_distilbert_for_personality_classification/blob/main/requirements.txt): necessary packages
+- [requirements.txt](https://github.com/samuelcampione/finetuning_distilbert_for_personality_classification/blob/main/requirements.txt)
 
 ### **Personality**: 
 Openness to Experience, or simply Openness, is one of the Big Five personality dimensions proposed by Costa and McCrae (1992), and is well-accepted as a measure of open-mindedness and receptivity to new ideas and experiences. (I find this trait to be one of the most fascinating as it captures nuanced attributes.)
