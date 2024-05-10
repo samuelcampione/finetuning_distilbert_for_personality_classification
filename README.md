@@ -4,6 +4,7 @@ My goal was to expand the prediction of personality traits like Openness by appl
 ### **Model**: 
 The model uses Facebook Status Updates to predict Openness by using DistilBERT with a classifier head as both a feature extractor and a fine-tuned model. Utilizing a language model for this task, specifically a light transformer model like DistilBERT, is a more sophisticated approach to NLP for predicting personality than older methods (e.g., TF-IDF or keyword frequency).
 
+
 ### **Performance**
 
 
@@ -14,10 +15,14 @@ The model uses Facebook Status Updates to predict Openness by using DistilBERT w
 
 ### **Usage**
 - [data.py](https://github.com/samuelcampione/finetuning_distilbert_for_personality_classification/blob/main/data.py):  text preprocessing functions and custom PyTorch Dataset class
-- [models.py](https://github.com/samuelcampione/finetuning_distilbert_for_personality_classification/blob/main/models.py): PyTorch models trained,  `BERTClassifier` and `BERTClassifierUnfrozen`
+- [models.py](https://github.com/samuelcampione/finetuning_distilbert_for_personality_classification/blob/main/models.py): PyTorch models,  `BERTClassifier` and `BERTClassifierUnfrozen`
 - [train_eval.py](https://github.com/samuelcampione/finetuning_distilbert_for_personality_classification/blob/main/train_eval.py): training and evalution functions
 - [predicting_personality.ipynb](https://github.com/samuelcampione/finetuning_distilbert_for_personality_classification/blob/main/predicting_personality.ipynb): final notebook that explores data and trains and evaluates both models
 - [requirements.txt](https://github.com/samuelcampione/finetuning_distilbert_for_personality_classification/blob/main/requirements.txt)
+
+### **Data**: 
+The myPersonality datast contains Facebook Status Updates texts with binary categories (y/n) for the Big Five personality traits. The data has been anonymized but is not open for sharing. 
+
 
 ### **Personality**: 
 Openness to Experience, or simply Openness, is one of the Big Five personality dimensions proposed by Costa and McCrae (1992), and is well-accepted as a measure of open-mindedness and receptivity to new ideas and experiences. (I find this trait to be one of the most fascinating as it captures nuanced attributes.)
